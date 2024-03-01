@@ -1,0 +1,44 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+}
+
+.wrapper {
+  display: flex;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.infoWrapper {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.title {
+  color: #e50914;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movieDetail {
+  height: 22%;
+  padding-left: 20px;
+  color: gray;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.summary {
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 10; /* 라인수 */
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  height: 12.1em;
+}
